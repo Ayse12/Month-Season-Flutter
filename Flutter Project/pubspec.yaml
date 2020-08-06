@@ -1,0 +1,34 @@
+name: ayseilhanl
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+  #Alert için kullandığım packages için kullandım
+  rflutter_alert: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+#Uygulamamın iconunu yani logosunu oluşturmak için kullandığım yapı
+flutter_launcher_icons: "^0.7.3"
+#Logom için logo resmimi vediğer özellikleri tanımladığım yapı
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "image/logo.png"
+
+flutter:
+
+  uses-material-design: true
+  #assets içindeki eklediğim images klasöründeki resimleri çekmek için kullandığım yapı
+  assets:
+    - images/
